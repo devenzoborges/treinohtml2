@@ -38,14 +38,14 @@
            Perfil:</legend>
 
            <p>Genêro</p>
-            <input type="radio" name="userGender" value="Masculino">
+            <input type="radio" name="userGender" value="Masculino" id="Masc">
             <label for="userGender">Masculino</label>
 
-              <input type="radio" name="userGender" value="Feminino">
+              <input type="radio" name="userGender" value="Feminino" id="Fem">
             <label for="userGender">Feminino</label>
 
             
-              <input type="radio" name="userGender" value="notInformed">
+              <input type="radio" name="userGender" value="notInformed" id="notInformed">
             <label for="userGender">Prefiro não informar</label>
            <br>
               
@@ -115,6 +115,19 @@
 
     <input type="checkbox" name="social" value="X" id="x">
     <label for="x">X</label>
+
+    <br>
+    <label for="musicStyles">Estilo de Musical:</label>
+    <input list="stylesTypes" id="musicStyles" name="userMusicStyles"type="text">
+    <datalist id="stylesTypes">
+        <option value="Rock">Rock</option>
+        <option value="Pop">Pop</option>
+        <option value="Sertanejo">Sertanejo</option>
+        <option value="Funk">Funk</option>
+        <option value="Pagode">Pagode</option>
+        <option value="Forró">Forró</option>
+        <option value="MPB">MPB</option>
+    </datalist>
 </fieldset>
         
 
